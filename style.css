@@ -25,7 +25,16 @@
     padding-bottom: 20px;
     width: max-content;
     min-width: 80%;
+    max-width: 250px;
     border-radius: 10px;
+}
+
+.right{
+    padding-left: 10px;
+}
+
+.skills{
+    padding-bottom: 5%;
 }
 
 .skills div{
@@ -36,8 +45,10 @@
     padding-left: 10px;
     padding-right: 20px;
     padding-bottom: 20px;
-    min-width: 70%;
-    border-radius: 10px;    
+    max-width: 80%;
+    border-radius: 10px; 
+    padding-top: 5px;  
+    min-height: 10%;
 }
 
 body{
@@ -74,5 +85,25 @@ li{
 .contact li:hover{
     transform: translateX(0.25em);
 }
+
+.p-languages a, .scripts a{
+    float: left;
+    min-width: 90px;
+}
+
+.p-languages ul, .scripts ul{
+    width: 200px;
+    min-height: 140px;
+}
+
+.p-languages .lvl, .scripts .lvl{
+    font-size: 20px;
+}
+
+.p-languages li:hover, .scripts li:hover{
+    transform: translateX(0.25em);    
+}
+
+
 
 
